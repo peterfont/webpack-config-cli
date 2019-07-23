@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "提供一个CLI工具自动创建项目模板",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "bin": {
+    "webpack-config-cli": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -12,9 +13,17 @@
   },
   "keywords": [],
   "author": "panrpengorz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/peterfont/webpack-config-cli/issues"
   },
-  "homepage": "https://github.com/peterfont/webpack-config-cli#readme"
+  "homepage": "https://github.com/peterfont/webpack-config-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^6.5.0",
+    "ora": "^3.4.0",
+    "tildify": "^2.0.0"
+  }
 }
