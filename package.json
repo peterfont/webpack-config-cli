@@ -1,6 +1,6 @@
 {
   "name": "@panrpeng/webpack-config-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "提供一个CLI工具自动创建项目模板",
   "main": "index.js",
   "scripts": {},
